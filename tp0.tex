@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[a4paper]{geometry}
+\usepackage{csquotes}
+\usepackage[style=numeric,autocite=superscript,backend=biber]{biblatex}
+\usepackage{graphicx}
+\bibliography{mybib}
+\usepackage{url}
+
+\usepackage{setspace}
+% \onehalfspacing
+% http://tex.stackexchange.com/questions/65849
+\linespread{1.3}
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Times New Roman}
+\usepackage{xeCJK}
+\setCJKmainfont{IPAexMincho}
+\setCJKsansfont{IPAexGothic}
+\setCJKmonofont{IPAexGothic}
+
+
+\begin{document}
+  \newpage
+  \printbibliography
+\end{document}
